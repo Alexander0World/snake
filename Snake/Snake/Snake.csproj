@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B46CEEAB-FB65-47AB-AFCB-C87AD35F3900}</ProjectGuid>
+    <ProjectGuid>{84118FCD-911A-4648-8E5C-17D3515ECA3A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Snake</RootNamespace>
@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HorizontalLine.cs" />
-    <Compile Include="point.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="HLine.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
